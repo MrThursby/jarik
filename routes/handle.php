@@ -2,4 +2,4 @@
 
 use App\Http\Controllers\Handle\VkController;
 
-Route::get('vk', [VkController::class, 'index']);
+Route::post('vk', [VkController::class, 'index']);
